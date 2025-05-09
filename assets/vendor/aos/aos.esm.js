@@ -22,6 +22,7 @@ function containsAOSNode(nodes) {
     }
   }
 
+  
   return false;
 }
 

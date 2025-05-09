@@ -1,5 +1,6 @@
 'use strict';
 
+
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
 var throttle = _interopDefault(require('lodash.throttle'));
@@ -15,6 +16,7 @@ function containsAOSNode(nodes) {
   for (i = 0; i < nodes.length; i += 1) {
     currentNode = nodes[i];
 
+    
     if (currentNode.dataset && currentNode.dataset.aos) {
       return true;
     }
