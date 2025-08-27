@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-
+<!-- Head -->
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -73,7 +71,7 @@
       <ul>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Accueil</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> À Propos</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> CV</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Compétences</a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
         <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
         <!-- <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -97,165 +95,100 @@
       </ul>
     </nav> 
 
+    
   </header>
-<body class="index-page">
 
-  <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <div class="profile-img">
-      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
-    </div>
-
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
-      <h1 class="sitename">Pierre SAMUEL</h1>
-    </a>
-
-    <div class="social-links text-center">
-      <!-- <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a> -->
-      <!-- <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
-      <a href="https://github.com/pierreantoinesamuel" class="github" target="_blank">
-        <i class="bi bi-github"></i>
-      </a>
-      <!-- Icône Gmail -->
-      <a href="mailto:votreemail@gmail.com" class="gmail">
-        <i class="bi bi-envelope-fill"></i>
-      </a>
-            
-      <!-- <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a> -->
-      <a href="https://www.linkedin.com/in/pierre-antoine-samuel/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-    </div>
-
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Accueil</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> À Propos</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> CV</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-        <!-- <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="#">Dropdown 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Deep Dropdown 1</a></li>
-                <li><a href="#">Deep Dropdown 2</a></li>
-                <li><a href="#">Deep Dropdown 3</a></li>
-                <li><a href="#">Deep Dropdown 4</a></li>
-                <li><a href="#">Deep Dropdown 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown 2</a></li>
-            <li><a href="#">Dropdown 3</a></li>
-            <li><a href="#">Dropdown 4</a></li>
-          </ul>
-        </li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
-      </ul>
-    </nav> -->
-
-  </header>
   <main class="main">
 
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Détails du Portfolio</h1>
+        <h1 class="mb-3 mb-lg-0">Préparation de données</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Accueil</a></li>
-            <li class="current">Détails du Portfolio</li>
-           
+            <li class="current">Services</li>
           </ol>
-
         </nav>
       </div>
-     
     </div><!-- End Page Title -->
-    <p style="text-align: center; font-size: 20px; color: #000000;">
-      <strong>À VENIR</strong> <br>
-      
 
-    </p>
-  
+    <!-- Service Details Section -->
+    <!-- <section id="service-details" class="service-details section"> -->
 
-    <!-- Portfolio Details Section -->
-    <!-- <section id="portfolio-details" class="portfolio-details section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container">
 
         <div class="row gy-4">
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
+          <!-- <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="services-list">
+              <a href="#" class="active">Web Design</a>
+              <a href="#">Software Development</a>
+              <a href="#">Product Management</a>
+              <a href="#">Graphic Design</a>
+              <a href="#">Marketing</a>
+            </div> -->
 
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  }
-                }
-              </script>
-
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/books-1.jpg" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
+            <h4>Nettoyage et préparation de données : l’art caché derrière toute analyse réussie</h4>
+            <p>Imaginez-vous en train de cuisiner. Vous avez les meilleurs ingrédients du marché, mais s’ils ne sont pas lavés, triés ou correctement découpés, le plat final risque d’être immangeable. Les données, c’est pareil : sans nettoyage et préparation, elles restent brouillonnes, inutilisables et trompeuses. Pourtant, c’est souvent l’étape que l’on néglige le plus. Et c’est là que tout commence.</p>
           </div>
 
-          <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-            </div>
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/nettoyage.png" alt="" class="img-fluid services-img">
+            <h3>Pourquoi nettoyer ses données, vraiment ?</h3>
+            <p>Dans un monde où les entreprises collectent des montagnes d’informations chaque seconde, il est illusoire de croire que ces données arrivent toutes prêtes pour l’analyse. Duplicatas, valeurs manquantes, erreurs de saisie, incohérences… le chaos est partout. Et si on se fie aveuglément à ces données « brutes », les résultats deviennent vite dangereux : une mauvaise décision peut coûter très cher.</p>
+
+            <p>Nettoyer et préparer ses données, c’est comme mettre de l’ordre dans un atelier avant de construire quelque chose : cela évite de travailler à l’aveugle et permet de libérer tout le potentiel caché.</p>
+            <p>
+                 <h3>Les grands classiques du nettoyage</h3>
+            <ol>
+              <li> <span><strong>Les valeurs manquantes</strong></span>
+                <p> Des colonnes pleines de trous ? Pas de panique. On peut soit supprimer ces lignes, soit les remplacer intelligemment (par une moyenne, une médiane, ou encore une valeur par défaut). Le choix dépend du contexte et du type d’analyse.</p>
+              </li>
+              <li> <span><strong>Les valeurs manquantes</strong></span>
+                <p>Qui aime recevoir deux fois la même facture ? Personne. En data, c’est pareil : les doublons gonflent artificiellement vos résultats et brouillent vos analyses. Un simple .drop_duplicates() en Python peut parfois sauver des heures de travail.</p>
+              </li>
+              <li> <span><strong>Les valeurs manquantes</strong></span>
+                <p>Un fichier avec « Paris », « PARIS », et « parisss » dans la même colonne ? On unifie. Car derrière ces variantes se cache la même donnée.</p>
+              </li>
+              <li> <span><strong>Les valeurs manquantes</strong></span>
+                <p>Dates mélangées, devises en vrac, unités mal alignées : sans harmonisation, impossible de comparer ou d’agréger correctement les données.</p>
+              </li>
+             
+            </ol>
+            <img src="assets/img/dataclean.jpg" alt="" class="img-fluid services-img">
+                 <h3>Préparer, c’est déjà analyser</h3>
+            <p>La préparation ne se limite pas à « nettoyer ». C’est aussi une façon d’enrichir vos données pour en extraire davantage de valeur. Par exemple : </p>
+            <ul>
+              <li> <span><strong>Créer de nouvelles variables</strong> (exemple : transformer une date de naissance en âge).</span></li>
+              <li> <span><strong>Regrouper des catégories</strong> trop fines pour simplifier l’analyse (exemple : regrouper des villes en régions).</span></li>
+              <li> <span><strong>Transformer des données</strong> (exemple : passer des montants en euros à des montants en dollars).</span></li>
+              <li> <span><strong>Normaliser ou standardiser</strong> des données numériques pour éviter que certaines variables dominent artificiellement les modèles.</span></li>
+              
+            </ul>
+            <p>En réalité, préparer les données, c’est déjà commencer à réfléchir à votre analyse.</p>
+            <p>
+              <h3>Pourquoi c’est passionnant (et pas juste une corvée)</h3>
+              <p>Le nettoyage de données a mauvaise réputation : fastidieux, long, répétitif. Pourtant, c’est souvent là que se cache la vraie découverte. C’est en scrutant les incohérences que l’on comprend mieux son jeu de données, que l’on identifie des tendances ou des problèmes inattendus.</p>
+                <p>Un bon data scientist sait que le nettoyage n’est pas une étape « avant l’analyse » : c’est une partie intégrante du processus analytique. C’est le moment où l’on apprend à connaître ses données.</p>
+              <h3>Conclusion : la valeur est dans la préparation</h3>
+                <p>Les projets data qui échouent ne manquent pas. Souvent, le problème n’est pas le modèle ou l’algorithme, mais la base sur laquelle ils reposent. Avec des données sales, même le meilleur modèle ne donnera rien de fiable.
+
+                Alors, la prochaine fois que vous recevez un fichier Excel plein de trous et de bizarreries, rappelez-vous : ce n’est pas une corvée, c’est la clé de votre succès analytique. Car au fond, nettoyer et préparer ses données, c’est transformer du chaos en connaissance.</p>
+            </p>
           </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Portfolio Details Section -->
+    </section><!-- /Service Details Section -->
+    <p style="text-align: center; font-size: 20px; color: #000000;">
+      
+      <a href="index.html" class="btn btn-primary">Retour à l'accueil</a>
+    </p>
 
-  </main>
+  </main> 
 
   <footer id="footer" class="footer position-relative light-background">
 
@@ -278,7 +211,7 @@
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
-  <div id="preloader"></div> -->
+  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
